@@ -1,0 +1,42 @@
+.white_brand {
+  color: #FFFFFF; }
+  .white_brand_background {
+    background-color: #FFFFFF; }
+
+.green_brand {
+  color: #3C2085; }
+  .green_brand_background {
+    background-color: #3C2085; }
+
+.primary_action {
+  color: #ABE542; }
+  .primary_action_background {
+    background-color: #ABE542; }
+
+.secondary_action {
+  color: #8F97A2; }
+  .secondary_action_background {
+    background-color: #8F97A2; }
+
+.positive {
+  color: #15FF93; }
+  .positive_background {
+    background-color: #15FF93; }
+
+.negative {
+  color: #F04F8D; }
+  .negative_background {
+    background-color: #F04F8D; }
+
+.background_blue {
+  background-color: #233946; }
+
+.white_normal {
+  color: #f9f9f9; }
+  .white_normal_background {
+    background-color: #f9f9f9; }
+
+.black_normal {
+  color: #1C1D21; }
+  .black_normal_background {
+    background-color: #1C1D21; }

@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800");
+.top_navbar {
+  top: 0;
+  left: 0;
+  background-color: #233946;
+  height: 50px;
+  display: flex;
+  align-items: center; }
+  .top_navbar_brand {
+    width: 150px;
+    background-color: #3C2085;
+    height: 50px; }
+  .top_navbar_menu {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end; }
+    .top_navbar_menu > a {
+      margin: 10px;
+      color: #ABE542; }
