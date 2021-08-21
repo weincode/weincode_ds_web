@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var run = require('gulp-run');
 var concat = require('gulp-concat');
 var minifyCSS = require('gulp-minify-css');
 var version= require('./package.json');
@@ -32,7 +33,8 @@ gulp.task('style_min', function(){
     .pipe(sass()) // Converts Sass to CSS with gulp-sass
     .pipe(minifyCSS())
     .pipe(concat('style_main_'+version.version+'.min.css'))
-    .pipe(gulp.dest('public/stylesheets'))
+    .pipe(gulp.dest('public/stylesheets/min'))
+  
 });
 
 //gulp watch

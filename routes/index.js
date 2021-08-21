@@ -32,8 +32,8 @@ router.get('/animations', function(req, res, next) {
 });
 
 //------------------------------------------------- COMPONENTES
-router.get('/navbar', function(req, res, next) {
-  res.render('components/navbar', { title: 'Express' });
+router.get('/buttons', function(req, res, next) {
+  res.render('components/atoms/buttons', { title: 'Express' });
 });
 
 
