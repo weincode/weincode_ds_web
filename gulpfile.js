@@ -6,24 +6,9 @@ var minifyCSS = require('gulp-minify-css');
 var version= require('./package.json');
 
 //npm install gulp --save --only=dev
+//npm install gulp-sass
 gulp.task('try', function() {
   console.log('Hola todo anda bien ');
-});
-
-//npm install gulp-sass
-gulp.task('sass', function(){
-  return gulp.src('scss/**/*.scss')
-    .pipe(sass()) // Converts Sass to CSS with gulp-sass
-    .pipe(gulp.dest('public/stylesheets'))
-});
-
-//npm install gulp-concat
-
-gulp.task('style', function(){
-  return gulp.src('scss/**/*.scss')
-    .pipe(sass()) // Converts Sass to CSS with gulp-sass
-    .pipe(concat('style_main.css'))
-    .pipe(gulp.dest('public/stylesheets'))
 });
 
 
