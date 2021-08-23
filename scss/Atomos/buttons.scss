@@ -1,27 +1,32 @@
 @import "../tokens/colors.scss";
+
 .wc-btn{
-    color: $white_normal;
     border: none;
-    height: 30px;
     padding: 5px;
+    height: 30px;
     border-radius: 10px;
     box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    transition: 600ms;
+    transition: .6s;
     &:active{
         box-shadow: none;
     }
-    &-primary{
+    &-primary {
         @extend .wc-btn;
+        color: $white_normal;
         background-color: $brand_primary_scale_00;
+
         &:hover{
-            background-color: $brand_primary_scale_03 ;
+            background-color: $brand_primary_scale_03;
         }
     }
-    &-secondary{
+    &-secondary {
         @extend .wc-btn;
-        background-color: $brand_primary_scale_03;
+        color: $white_normal;
+        background-color: $brand_primary_scale_04;
+
         &:hover{
-            background-color: $brand_primary_scale_06 ;
+            background-color: $brand_primary_scale_06;
         }
     }
+
 }
